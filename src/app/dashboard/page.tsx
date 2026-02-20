@@ -91,8 +91,10 @@ export default function DashboardPage() {
               <Button className="w-full justify-start" variant="outline">
                 <span className="mr-2">🎨</span> Log an Activity
               </Button>
-              <Button className="w-full justify-start" variant="outline">
-                <span className="mr-2">🏫</span> Research Schools
+              <Button className="w-full justify-start" variant="outline" asChild>
+                <Link href="/schools">
+                  <span className="mr-2">🏫</span> Research Schools
+                </Link>
               </Button>
               <Button className="w-full justify-start" variant="outline">
                 <span className="mr-2">📝</span> Start Essay Brainstorm
